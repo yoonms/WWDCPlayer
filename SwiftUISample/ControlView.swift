@@ -10,18 +10,18 @@ import SwiftUI
 import AVFoundation
 
 struct ControlView: View {
-    
-    init(player: AVPlayer) {
-        self.controller = PlayerController(player: player)
-    }
-    
+
     @State var playerState: PlayerState = .pause
+    
+    let controller: PlayerController
+
+    init(controller: PlayerController) {
+        self.controller = controller
+    }
     
     var isPaused: Bool {
         return playerState == .pause
     }
-    
-    let controller: PlayerController
     
     var body: some View {
         HStack(spacing: 50) {
@@ -45,7 +45,7 @@ struct ControlView: View {
 #if DEBUG
 struct ControlView_Previews : PreviewProvider {
     static var previews: some View {
-        ControlView(player: AVPlayer())
+        ControlView(controller: PlayerController(player: AVPlayer()))
     }
 }
 #endif

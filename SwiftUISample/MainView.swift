@@ -23,7 +23,7 @@ struct MainView: View {
                     
                     PlayerView(player: self.player, video: self.currentVideo)
                     
-                    ControlView(player: self.player)
+                    ControlView(controller: PlayerController(player: self.player))
                         .padding(.all)
                     
                 }.background(Color.black)
