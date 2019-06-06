@@ -19,14 +19,8 @@ struct MainView: View {
         NavigationView {
             VStack {
                 ZStack(alignment: .bottom) {
-                    
-                    PlayerView(player: self.player, video: userData.currentVideo)
-                    
-                    ControlView(controller: PlayerController(player: self.player))
-                        .padding(.all)
-                    
-                    }
-                    .background(Color.black)
+                    PlayerViewController(video: $userData.currentVideo)
+                }
                 
                 FavoriteToggleView()
                 VideoListView()
