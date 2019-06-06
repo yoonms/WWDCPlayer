@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D49A1F722A8839D002D1C10 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D49A1F622A8839D002D1C10 /* VideoRow.swift */; };
 		B83D3F7B22A8529B000A9E72 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7A22A8529B000A9E72 /* PlayerView.swift */; };
 		B83D3F7D22A855C8000A9E72 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7C22A855C8000A9E72 /* Video.swift */; };
 		B8A60E5222A87AA60039B394 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A60E5122A87AA60039B394 /* ControlView.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		B83D3F7A22A8529B000A9E72 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B83D3F7C22A855C8000A9E72 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B8A60E5122A87AA60039B394 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D7DEE8B22A8950D005D6A10 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B8C3352322A83894003AD9B4 /* AppDelegate.swift */,
+				B8C3352522A83894003AD9B4 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8D7DEE8C22A89522005D6A10 /* Supportinng Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8C3352922A83897003AD9B4 /* Assets.xcassets */,
+				B8C3353122A83897003AD9B4 /* Info.plist */,
+			);
+			path = "Supportinng Files";
+			sourceTree = "<group>";
+		};
 		B8C3351722A83894003AD9B4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,16 +107,15 @@
 		B8C3352222A83894003AD9B4 /* SwiftUISample */ = {
 			isa = PBXGroup;
 			children = (
+				8D7DEE8B22A8950D005D6A10 /* Delegates */,
 				B83D3F7C22A855C8000A9E72 /* Video.swift */,
-				B8C3352322A83894003AD9B4 /* AppDelegate.swift */,
-				B8C3352522A83894003AD9B4 /* SceneDelegate.swift */,
 				B8C3352722A83894003AD9B4 /* ContentView.swift */,
+				8D49A1F622A8839D002D1C10 /* VideoRow.swift */,
 				B83D3F7A22A8529B000A9E72 /* PlayerView.swift */,
 				B8A60E5322A88B310039B394 /* PlayerController.swift */,
 				B8A60E5122A87AA60039B394 /* ControlView.swift */,
-				B8C3352922A83897003AD9B4 /* Assets.xcassets */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
-				B8C3353122A83897003AD9B4 /* Info.plist */,
+				8D7DEE8C22A89522005D6A10 /* Supportinng Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
 			);
 			path = SwiftUISample;
@@ -226,6 +245,7 @@
 				B83D3F7B22A8529B000A9E72 /* PlayerView.swift in Sources */,
 				B8A60E5422A88B310039B394 /* PlayerController.swift in Sources */,
 				B8A60E5222A87AA60039B394 /* ControlView.swift in Sources */,
+				8D49A1F722A8839D002D1C10 /* VideoRow.swift in Sources */,
 				B83D3F7D22A855C8000A9E72 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUISample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supportinng Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftUISample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supportinng Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
