@@ -9,42 +9,34 @@
 import SwiftUI
 import AVFoundation
 
-enum PlayerState {
-    case play
-    case pause
-}
-
 struct ControlView: View {
     
-    private let backgroundColor = Color(red: 0, green: 0, blue: 0, opacity: 0.4)
-        
     init(player: AVPlayer) {
         self.controller = PlayerController(player: player)
     }
     
-    @State
-    var playerState: PlayerState = .pause
+    @State var playerState: PlayerState = .pause
     
     var isPaused: Bool {
         return playerState == .pause
     }
     
-    var controller: PlayerController?
+    let controller: PlayerController
     
     var body: some View {
         HStack(spacing: 50) {
             Image("rewind")
                 .tapAction {
-                    self.controller?.rewind()
+                    self.controller.rewind()
                 }
             Image(isPaused ? "play" : "pause")
                 .tapAction {
-                    self.isPaused ? self.controller?.play() : self.controller?.pause()
+                    self.isPaused ? self.controller.play() : self.controller.pause()
                     self.playerState = self.isPaused ? .play : .pause
                 }
             Image("fastforward")
                 .tapAction {
-                    self.controller?.fastForward()
+                    self.controller.fastForward()
                 }
         }
     }

@@ -19,6 +19,7 @@
 		B8C3352D22A83897003AD9B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352C22A83897003AD9B4 /* Preview Assets.xcassets */; };
 		B8C3353022A83897003AD9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */; };
 		B8C3353B22A83898003AD9B4 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */; };
+		B8C67D6422A89FE500C0B63F /* PlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C67D6322A89FE500C0B63F /* PlayerState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B8C3353622A83897003AD9B4 /* SwiftUISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleTests.swift; sourceTree = "<group>"; };
 		B8C3353C22A83898003AD9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C67D6322A89FE500C0B63F /* PlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				B83D3F7A22A8529B000A9E72 /* PlayerView.swift */,
 				B8A60E5322A88B310039B394 /* PlayerController.swift */,
 				B8A60E5122A87AA60039B394 /* ControlView.swift */,
+				B8C67D6322A89FE500C0B63F /* PlayerState.swift */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
 				8DC3392922A89A7D00EDE8CF /* Supporting Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
@@ -239,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C67D6422A89FE500C0B63F /* PlayerState.swift in Sources */,
 				B8C3352422A83894003AD9B4 /* AppDelegate.swift in Sources */,
 				B8C3352622A83894003AD9B4 /* SceneDelegate.swift in Sources */,
 				B8C3352822A83894003AD9B4 /* MainView.swift in Sources */,
