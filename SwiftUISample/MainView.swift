@@ -25,12 +25,13 @@ struct MainView: View {
                     ControlView(controller: PlayerController(player: self.player))
                         .padding(.all)
                     
-                }
-                .background(Color.black)
+                    }
+                    .background(Color.black)
+                
                 FavoriteToggleView()
                 VideoListView()
-            }
-            .navigationBarTitle(Text(userData.currentVideo.title))
+                }
+                .navigationBarTitle(Text(userData.currentVideo.title))
         }
     }
 }
@@ -52,20 +53,26 @@ struct FavoriteToggleView: View {
         Toggle(isOn: $userData.showFavoriteOnly) {
             Text("Favorite Only")
                 .foregroundColor(Color.yellow)
-        }
-        .padding([.leading, .trailing], 20)
+            }
+            .padding([.leading, .trailing], 20)
     }
 }
 
 struct VideoListView : View {
-
+    
     @EnvironmentObject var userData: UserData
-
+    
     var body: some View {
-        return List(userData.videos) { video in
-            if !self.userData.showFavoriteOnly || video.isFavorite {
-                VideoRow(video: video)
+        List {
+            ForEach(allWeekDays) { day in
+                Section(header: Text(day.rawValue.uppercased()).fontWeight(.bold)) {
+                    ForEach(self.userData.videos.filter { $0.weekDay == day }) { video in
+                        if !self.userData.showFavoriteOnly || video.isFavorite {
+                            VideoRow(video: video)
+                        }
+                    }
+                }
             }
-        }
+        }.listStyle(.grouped)
     }
 }
