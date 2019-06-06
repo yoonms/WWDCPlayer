@@ -37,7 +37,7 @@
 		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		8DC3392A22A89A7D00EDE8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC3392B22A89A7D00EDE8CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DC3393022A8A14800EDE8CF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = "Supporting Files/UserData.swift"; sourceTree = "<group>"; };
+		8DC3393022A8A14800EDE8CF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B83D3F7A22A8529B000A9E72 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B83D3F7C22A855C8000A9E72 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B8A60E5122A87AA60039B394 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8D7DEE8B22A8950D005D6A10 /* Delegates */,
-				B83D3F7C22A855C8000A9E72 /* Video.swift */,
+				B8C67D6522A8D09500C0B63F /* Model */,
 				B8C3352722A83894003AD9B4 /* MainView.swift */,
 				8D49A1F622A8839D002D1C10 /* VideoRow.swift */,
 				B83D3F7A22A8529B000A9E72 /* PlayerView.swift */,
@@ -120,7 +120,6 @@
 				B8A60E5122A87AA60039B394 /* ControlView.swift */,
 				B8C67D6322A89FE500C0B63F /* PlayerState.swift */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
-				8DC3393022A8A14800EDE8CF /* UserData.swift */,
 				8DC3392922A89A7D00EDE8CF /* Supporting Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
 			);
@@ -142,6 +141,15 @@
 				B8C3353C22A83898003AD9B4 /* Info.plist */,
 			);
 			path = SwiftUISampleTests;
+			sourceTree = "<group>";
+		};
+		B8C67D6522A8D09500C0B63F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B83D3F7C22A855C8000A9E72 /* Video.swift */,
+				8DC3393022A8A14800EDE8CF /* UserData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
