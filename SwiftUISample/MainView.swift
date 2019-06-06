@@ -20,9 +20,12 @@ struct MainView: View {
         NavigationView {
             VStack {
                 ZStack(alignment: .bottom) {
+                    
                     PlayerView(player: self.player, video: self.currentVideo)
+                    
                     ControlView(player: self.player)
                         .padding(.all)
+                    
                 }.background(Color.black)
         
                 VideoListView(videos: videos)

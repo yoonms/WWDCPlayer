@@ -17,11 +17,8 @@ enum PlayerState {
 struct ControlView: View {
     
     private let backgroundColor = Color(red: 0, green: 0, blue: 0, opacity: 0.4)
-    
-    let player: AVPlayer
-    
+        
     init(player: AVPlayer) {
-        self.player = player
         self.controller = PlayerController(player: player)
     }
     
