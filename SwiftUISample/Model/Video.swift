@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct Video: Identifiable, Hashable {
+struct Video: Identifiable, Equatable {
     var id: Int
     var title: String
     var url: String
@@ -18,6 +18,10 @@ struct Video: Identifiable, Hashable {
     
     var platformString: String {
         return platforms.map { $0.rawValue }.joined(separator: ", ")
+    }
+    
+    static func == (lhs: Video, rhs: Video) -> Bool {
+        return lhs.id == rhs.id
     }
 }
 

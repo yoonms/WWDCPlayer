@@ -25,9 +25,10 @@ struct MainView: View {
                     ControlView(controller: PlayerController(player: self.player))
                         .padding(.all)
                     
-                }.background(Color.black)
-        
-                VideoListView(videos: userData.videos)
+                }
+                .background(Color.black)
+                FavoriteToggleView()
+                VideoListView()
             }
             .navigationBarTitle(Text(userData.currentVideo.title))
         }
@@ -43,12 +44,28 @@ struct MainView_Previews : PreviewProvider {
 }
 #endif
 
-struct VideoListView : View {
+struct FavoriteToggleView: View {
     
-    var videos: [Video]
+    @EnvironmentObject var userData: UserData
+    
     var body: some View {
-        return List(videos) { video in
-            VideoRow(video: video)
+        Toggle(isOn: $userData.showFavoriteOnly) {
+            Text("Favorite Only")
+                .foregroundColor(Color.yellow)
+        }
+        .padding([.leading, .trailing], 20)
+    }
+}
+
+struct VideoListView : View {
+
+    @EnvironmentObject var userData: UserData
+
+    var body: some View {
+        return List(userData.videos) { video in
+            if !self.userData.showFavoriteOnly || video.isFavorite {
+                VideoRow(video: video)
+            }
         }
     }
 }

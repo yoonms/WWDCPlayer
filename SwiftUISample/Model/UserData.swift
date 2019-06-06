@@ -11,6 +11,12 @@ import Combine
 final class UserData: BindableObject  {
     let didChange = PassthroughSubject<UserData, Never>()
     
+    var showFavoriteOnly = false {
+        didSet {
+            didChange.send(self)
+        }
+    }
+    
     var videos = videoList {
         didSet {
             didChange.send(self)
