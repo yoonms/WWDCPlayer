@@ -49,12 +49,7 @@ struct VideoListView : View {
     var videos: [Video]
     var body: some View {
         return List(videos) { video in
-            VStack {
-                VideoRow(video: video)
-                    .padding(.top, 10)
-                    .padding(.bottom, 10)
-                
-            }
+            VideoRow(video: video)
         }
     }
 }

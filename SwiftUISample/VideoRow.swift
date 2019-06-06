@@ -27,6 +27,7 @@ struct VideoRow : View {
                 Image(systemName: "music.mic")
             }
         }
+        .padding([.top, .bottom], 10)
         .tapAction {
             self.userData.currentVideo = self.video
         }
