@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MainView.swift
 //  SwiftUISample
 //
 //  Created by ms on 2019/06/05.
@@ -9,7 +9,7 @@
 import SwiftUI
 import AVFoundation
 
-struct ContentView : View {
+struct MainView: View {
     
     var videos = videoList
     var currentVideo = videoList[0]
@@ -33,9 +33,9 @@ struct ContentView : View {
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct MainView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
 #endif
