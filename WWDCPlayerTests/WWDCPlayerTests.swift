@@ -1,15 +1,15 @@
 //
-//  SwiftUISampleTests.swift
-//  SwiftUISampleTests
+//  WWDCPlayerTests.swift
+//  WWDCPlayerTests
 //
 //  Created by ms on 2019/06/05.
 //  Copyright © 2019 daybreak. All rights reserved.
 //
 
 import XCTest
-@testable import SwiftUISample
+@testable import WWDCPlayer
 
-class SwiftUISampleTests: XCTestCase {
+class WWDCPlayerTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

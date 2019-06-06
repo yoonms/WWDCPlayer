@@ -1,6 +1,6 @@
 //
 //  Platform.swift
-//  SwiftUISample
+//  WWDCPlayer
 //
 //  Created by sohee on 2019/06/05.
 //  Copyright © 2019 daybreak. All rights reserved.

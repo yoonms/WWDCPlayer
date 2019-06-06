@@ -1,6 +1,6 @@
 //
 //  PlayerViewController.swift
-//  SwiftUISample
+//  WWDCPlayer
 //
 //  Created by ms on 2019/06/05.
 //  Copyright © 2019 daybreak. All rights reserved.

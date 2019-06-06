@@ -17,9 +17,10 @@
 		B8C3352822A83894003AD9B4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3352722A83894003AD9B4 /* MainView.swift */; };
 		B8C3352D22A83897003AD9B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352C22A83897003AD9B4 /* Preview Assets.xcassets */; };
 		B8C3353022A83897003AD9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */; };
-		B8C3353B22A83898003AD9B4 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */; };
+		B8C3353B22A83898003AD9B4 /* WWDCPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3353A22A83898003AD9B4 /* WWDCPlayerTests.swift */; };
 		B8E926AD22A8E22A009D3FF1 /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E926AC22A8E22A009D3FF1 /* WeekDay.swift */; };
 		B8E926AF22A8E242009D3FF1 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E926AE22A8E242009D3FF1 /* Platform.swift */; };
+		B8E926B422A9CD69009D3FF1 /* WWDCPlayerTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = B8C3353622A83897003AD9B4 /* WWDCPlayerTests.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
+		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoRow.swift; path = ../VideoRow.swift; sourceTree = "<group>"; };
 		8DC3392A22A89A7D00EDE8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC3392B22A89A7D00EDE8CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC3393022A8A14800EDE8CF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
-		B83D3F7A22A8529B000A9E72 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		B83D3F7A22A8529B000A9E72 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerViewController.swift; path = ../PlayerViewController.swift; sourceTree = "<group>"; };
 		B83D3F7C22A855C8000A9E72 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		B8C3352022A83894003AD9B4 /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C3352022A83894003AD9B4 /* WWDCPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C3352322A83894003AD9B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C3352522A83894003AD9B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B8C3352722A83894003AD9B4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B8C3352722A83894003AD9B4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = ../MainView.swift; sourceTree = "<group>"; };
 		B8C3352C22A83897003AD9B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8C3352F22A83897003AD9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B8C3353622A83897003AD9B4 /* SwiftUISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleTests.swift; sourceTree = "<group>"; };
+		B8C3353622A83897003AD9B4 /* WWDCPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDCPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C3353A22A83898003AD9B4 /* WWDCPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCPlayerTests.swift; sourceTree = "<group>"; };
 		B8C3353C22A83898003AD9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E926AC22A8E22A009D3FF1 /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
 		B8E926AE22A8E242009D3FF1 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
@@ -91,8 +92,8 @@
 		B8C3351722A83894003AD9B4 = {
 			isa = PBXGroup;
 			children = (
-				B8C3352222A83894003AD9B4 /* SwiftUISample */,
-				B8C3353922A83898003AD9B4 /* SwiftUISampleTests */,
+				B8C3352222A83894003AD9B4 /* WWDCPlayer */,
+				B8C3353922A83898003AD9B4 /* WWDCPlayerTests */,
 				B8C3352122A83894003AD9B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,26 +101,24 @@
 		B8C3352122A83894003AD9B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8C3352022A83894003AD9B4 /* SwiftUISample.app */,
-				B8C3353622A83897003AD9B4 /* SwiftUISampleTests.xctest */,
+				B8C3352022A83894003AD9B4 /* WWDCPlayer.app */,
+				B8C3353622A83897003AD9B4 /* WWDCPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8C3352222A83894003AD9B4 /* SwiftUISample */ = {
+		B8C3352222A83894003AD9B4 /* WWDCPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				8D7DEE8B22A8950D005D6A10 /* Delegates */,
 				B8C67D6522A8D09500C0B63F /* Model */,
-				B8C3352722A83894003AD9B4 /* MainView.swift */,
-				8D49A1F622A8839D002D1C10 /* VideoRow.swift */,
-				B83D3F7A22A8529B000A9E72 /* PlayerViewController.swift */,
+				B8E926B322A9CCAD009D3FF1 /* View */,
 				B8E926B022A8E24D009D3FF1 /* Enum */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
 				8DC3392922A89A7D00EDE8CF /* Supporting Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
 			);
-			path = SwiftUISample;
+			path = WWDCPlayer;
 			sourceTree = "<group>";
 		};
 		B8C3352B22A83897003AD9B4 /* Preview Content */ = {
@@ -130,13 +129,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B8C3353922A83898003AD9B4 /* SwiftUISampleTests */ = {
+		B8C3353922A83898003AD9B4 /* WWDCPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */,
+				B8C3353A22A83898003AD9B4 /* WWDCPlayerTests.swift */,
 				B8C3353C22A83898003AD9B4 /* Info.plist */,
 			);
-			path = SwiftUISampleTests;
+			path = WWDCPlayerTests;
 			sourceTree = "<group>";
 		};
 		B8C67D6522A8D09500C0B63F /* Model */ = {
@@ -157,12 +156,22 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
+		B8E926B322A9CCAD009D3FF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8C3352722A83894003AD9B4 /* MainView.swift */,
+				8D49A1F622A8839D002D1C10 /* VideoRow.swift */,
+				B83D3F7A22A8529B000A9E72 /* PlayerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8C3351F22A83894003AD9B4 /* SwiftUISample */ = {
+		B8C3351F22A83894003AD9B4 /* WWDCPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8C3353F22A83898003AD9B4 /* Build configuration list for PBXNativeTarget "SwiftUISample" */;
+			buildConfigurationList = B8C3353F22A83898003AD9B4 /* Build configuration list for PBXNativeTarget "WWDCPlayer" */;
 			buildPhases = (
 				B8C3351C22A83894003AD9B4 /* Sources */,
 				B8C3351D22A83894003AD9B4 /* Frameworks */,
@@ -172,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUISample;
+			name = WWDCPlayer;
 			productName = SwiftUISample;
-			productReference = B8C3352022A83894003AD9B4 /* SwiftUISample.app */;
+			productReference = B8C3352022A83894003AD9B4 /* WWDCPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B8C3353522A83897003AD9B4 /* SwiftUISampleTests */ = {
+		B8C3353522A83897003AD9B4 /* WWDCPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8C3354222A83898003AD9B4 /* Build configuration list for PBXNativeTarget "SwiftUISampleTests" */;
+			buildConfigurationList = B8C3354222A83898003AD9B4 /* Build configuration list for PBXNativeTarget "WWDCPlayerTests" */;
 			buildPhases = (
 				B8C3353222A83897003AD9B4 /* Sources */,
 				B8C3353322A83897003AD9B4 /* Frameworks */,
@@ -190,9 +199,9 @@
 			dependencies = (
 				B8C3353822A83897003AD9B4 /* PBXTargetDependency */,
 			);
-			name = SwiftUISampleTests;
+			name = WWDCPlayerTests;
 			productName = SwiftUISampleTests;
-			productReference = B8C3353622A83897003AD9B4 /* SwiftUISampleTests.xctest */;
+			productReference = B8C3353622A83897003AD9B4 /* WWDCPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8C3351B22A83894003AD9B4 /* Build configuration list for PBXProject "SwiftUISample" */;
+			buildConfigurationList = B8C3351B22A83894003AD9B4 /* Build configuration list for PBXProject "WWDCPlayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8C3351F22A83894003AD9B4 /* SwiftUISample */,
-				B8C3353522A83897003AD9B4 /* SwiftUISampleTests */,
+				B8C3351F22A83894003AD9B4 /* WWDCPlayer */,
+				B8C3353522A83897003AD9B4 /* WWDCPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8E926B422A9CD69009D3FF1 /* WWDCPlayerTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8C3353B22A83898003AD9B4 /* SwiftUISampleTests.swift in Sources */,
+				B8C3353B22A83898003AD9B4 /* WWDCPlayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		B8C3353822A83897003AD9B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B8C3351F22A83894003AD9B4 /* SwiftUISample */;
+			target = B8C3351F22A83894003AD9B4 /* WWDCPlayer */;
 			targetProxy = B8C3353722A83897003AD9B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -419,14 +429,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "WWDCPlayer/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDCPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.SwiftUISample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.WWDCPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,14 +448,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "WWDCPlayer/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/WWDCPlayer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.SwiftUISample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.WWDCPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,17 +468,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftUISampleTests/Info.plist;
+				INFOPLIST_FILE = WWDCPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.SwiftUISampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.WWDCPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISample.app/SwiftUISample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDCPlayer.app/WWDCPlayer";
 			};
 			name = Debug;
 		};
@@ -478,24 +488,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftUISampleTests/Info.plist;
+				INFOPLIST_FILE = WWDCPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.SwiftUISampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daybreak.WWDCPlayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUISample.app/SwiftUISample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWDCPlayer.app/WWDCPlayer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8C3351B22A83894003AD9B4 /* Build configuration list for PBXProject "SwiftUISample" */ = {
+		B8C3351B22A83894003AD9B4 /* Build configuration list for PBXProject "WWDCPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8C3353D22A83898003AD9B4 /* Debug */,
@@ -504,7 +514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8C3353F22A83898003AD9B4 /* Build configuration list for PBXNativeTarget "SwiftUISample" */ = {
+		B8C3353F22A83898003AD9B4 /* Build configuration list for PBXNativeTarget "WWDCPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8C3354022A83898003AD9B4 /* Debug */,
@@ -513,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8C3354222A83898003AD9B4 /* Build configuration list for PBXNativeTarget "SwiftUISampleTests" */ = {
+		B8C3354222A83898003AD9B4 /* Build configuration list for PBXNativeTarget "WWDCPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8C3354322A83898003AD9B4 /* Debug */,
