@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D49A1F722A8839D002D1C10 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D49A1F622A8839D002D1C10 /* VideoRow.swift */; };
+		8DC3392C22A89A7D00EDE8CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3392A22A89A7D00EDE8CF /* Assets.xcassets */; };
 		B83D3F7B22A8529B000A9E72 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7A22A8529B000A9E72 /* PlayerView.swift */; };
 		B83D3F7D22A855C8000A9E72 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7C22A855C8000A9E72 /* Video.swift */; };
 		B8A60E5222A87AA60039B394 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A60E5122A87AA60039B394 /* ControlView.swift */; };
@@ -15,7 +16,6 @@
 		B8C3352422A83894003AD9B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3352322A83894003AD9B4 /* AppDelegate.swift */; };
 		B8C3352622A83894003AD9B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3352522A83894003AD9B4 /* SceneDelegate.swift */; };
 		B8C3352822A83894003AD9B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3352722A83894003AD9B4 /* ContentView.swift */; };
-		B8C3352A22A83897003AD9B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352922A83897003AD9B4 /* Assets.xcassets */; };
 		B8C3352D22A83897003AD9B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352C22A83897003AD9B4 /* Preview Assets.xcassets */; };
 		B8C3353022A83897003AD9B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */; };
 		B8C3353B22A83898003AD9B4 /* SwiftUISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */; };
@@ -33,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
+		8DC3392A22A89A7D00EDE8CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC3392B22A89A7D00EDE8CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B83D3F7A22A8529B000A9E72 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B83D3F7C22A855C8000A9E72 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B8A60E5122A87AA60039B394 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -41,10 +43,8 @@
 		B8C3352322A83894003AD9B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C3352522A83894003AD9B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B8C3352722A83894003AD9B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B8C3352922A83897003AD9B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8C3352C22A83897003AD9B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8C3352F22A83897003AD9B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B8C3353122A83897003AD9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8C3353622A83897003AD9B4 /* SwiftUISampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C3353A22A83898003AD9B4 /* SwiftUISampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleTests.swift; sourceTree = "<group>"; };
 		B8C3353C22A83898003AD9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,13 +77,13 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		8D7DEE8C22A89522005D6A10 /* Supportinng Files */ = {
+		8DC3392922A89A7D00EDE8CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8C3352922A83897003AD9B4 /* Assets.xcassets */,
-				B8C3353122A83897003AD9B4 /* Info.plist */,
+				8DC3392A22A89A7D00EDE8CF /* Assets.xcassets */,
+				8DC3392B22A89A7D00EDE8CF /* Info.plist */,
 			);
-			path = "Supportinng Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B8C3351722A83894003AD9B4 = {
@@ -115,7 +115,7 @@
 				B8A60E5322A88B310039B394 /* PlayerController.swift */,
 				B8A60E5122A87AA60039B394 /* ControlView.swift */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
-				8D7DEE8C22A89522005D6A10 /* Supportinng Files */,
+				8DC3392922A89A7D00EDE8CF /* Supporting Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
 			);
 			path = SwiftUISample;
@@ -220,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C3353022A83897003AD9B4 /* LaunchScreen.storyboard in Resources */,
+				8DC3392C22A89A7D00EDE8CF /* Assets.xcassets in Resources */,
 				B8C3352D22A83897003AD9B4 /* Preview Assets.xcassets in Resources */,
-				B8C3352A22A83897003AD9B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supportinng Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "SwiftUISample/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supportinng Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftUISample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
