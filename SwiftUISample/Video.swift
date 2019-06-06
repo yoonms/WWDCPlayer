@@ -9,11 +9,12 @@
 import Foundation
 import SwiftUI
 
-struct Video: Identifiable {
+struct Video: Identifiable, Hashable {
     var id: Int
     var title: String
     var url: String
     var platforms: [Platform]
+    var isFavorite = false
     
     var platformString: String {
         return platforms.map { $0.rawValue }.joined(separator: ", ")

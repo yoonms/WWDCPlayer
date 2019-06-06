@@ -9,9 +9,11 @@
 import SwiftUI
 
 struct VideoRow : View {
+    
     @EnvironmentObject var userData: UserData
     
     var video: Video
+    
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
@@ -23,14 +25,36 @@ struct VideoRow : View {
                 }
             }
             Spacer()
-            if userData.currentVideo.id == video.id {
-                Image(systemName: "music.mic")
+            HStack(spacing: 15) {
+                Image(systemName: video.isFavorite ? "star.fill" : "star")
+                    .foregroundColor(video.isFavorite ? Color.yellow : Color.gray)
+                    .tapAction {
+                        self.setFavorite(video: self.video)
+                    }
+                
+                if userData.currentVideo == video {
+                    Image(systemName: "music.mic")
+                }
             }
         }
         .padding([.top, .bottom], 10)
         .tapAction {
-            self.userData.currentVideo = self.video
+            self.setCurrentVideo(video: self.video)
         }
+    }
+    
+    func setCurrentVideo(video: Video) {
+        guard self.userData.currentVideo != self.video else {
+            return
+        }
+        self.userData.currentVideo = self.video
+    }
+    
+    func setFavorite(video: Video) {
+        guard let index = userData.videos.firstIndex (where: { $0 == video }) else {
+            return
+        }
+        self.userData.videos[index].isFavorite.toggle()
     }
 }
 

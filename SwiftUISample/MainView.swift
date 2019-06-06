@@ -14,7 +14,6 @@ struct MainView: View {
     @EnvironmentObject var userData: UserData
     
     let player = AVPlayer()
-    var videos = videoList
     
     var body: some View {
         NavigationView {
@@ -28,7 +27,7 @@ struct MainView: View {
                     
                 }.background(Color.black)
         
-                VideoListView(videos: videos)
+                VideoListView(videos: userData.videos)
             }
             .navigationBarTitle(Text(userData.currentVideo.title))
         }
