@@ -26,15 +26,15 @@ struct VideoRow : View {
             }
             Spacer()
             HStack(spacing: 15) {
+                if userData.currentVideo == video {
+                    Image(systemName: "music.mic")
+                }
+                
                 Image(systemName: video.isFavorite ? "star.fill" : "star")
                     .foregroundColor(video.isFavorite ? Color.yellow : Color.gray)
                     .tapAction {
                         self.setFavorite(video: self.video)
                     }
-                
-                if userData.currentVideo == video {
-                    Image(systemName: "music.mic")
-                }
             }
         }
         .padding([.top, .bottom], 10)
