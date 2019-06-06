@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D49A1F722A8839D002D1C10 /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D49A1F622A8839D002D1C10 /* VideoRow.swift */; };
 		B83D3F7B22A8529B000A9E72 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7A22A8529B000A9E72 /* PlayerView.swift */; };
 		B83D3F7D22A855C8000A9E72 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83D3F7C22A855C8000A9E72 /* Video.swift */; };
 		B8C3352422A83894003AD9B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3352322A83894003AD9B4 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D49A1F622A8839D002D1C10 /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
 		B83D3F7A22A8529B000A9E72 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		B83D3F7C22A855C8000A9E72 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B8C3352022A83894003AD9B4 /* SwiftUISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 				B8C3352322A83894003AD9B4 /* AppDelegate.swift */,
 				B8C3352522A83894003AD9B4 /* SceneDelegate.swift */,
 				B8C3352722A83894003AD9B4 /* ContentView.swift */,
+				8D49A1F622A8839D002D1C10 /* VideoRow.swift */,
 				B83D3F7A22A8529B000A9E72 /* PlayerView.swift */,
 				B8C3352922A83897003AD9B4 /* Assets.xcassets */,
 				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 				B8C3352622A83894003AD9B4 /* SceneDelegate.swift in Sources */,
 				B8C3352822A83894003AD9B4 /* ContentView.swift in Sources */,
 				B83D3F7B22A8529B000A9E72 /* PlayerView.swift in Sources */,
+				8D49A1F722A8839D002D1C10 /* VideoRow.swift in Sources */,
 				B83D3F7D22A855C8000A9E72 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
