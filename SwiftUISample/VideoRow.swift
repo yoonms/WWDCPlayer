@@ -11,12 +11,18 @@ import SwiftUI
 struct VideoRow : View {
     var video: Video
     var body: some View {
-        VStack(alignment: .leading) {
-            TitleText(text: video.title)
-            HStack {
-                DescriptionText(text: "Session \(video.id)")
-                DescriptionText(text: "·")
-                DescriptionText(text: video.platformString)
+        HStack {
+            VStack(alignment: .leading) {
+                TitleText(text: video.title)
+                HStack {
+                    DescriptionText(text: "Session \(video.id)")
+                    DescriptionText(text: "·")
+                    DescriptionText(text: video.platformString)
+                }
+            }
+            Spacer()
+            if video.isPlaying {
+                Image(systemName: "music.mic")
             }
         }
     }
