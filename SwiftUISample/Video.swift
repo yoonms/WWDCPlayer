@@ -14,7 +14,6 @@ struct Video: Identifiable {
     var title: String
     var url: String
     var platforms: [Platform]
-    var isPlaying = false
     
     var platformString: String {
         return platforms.map { $0.rawValue }.joined(separator: ", ")

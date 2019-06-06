@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct VideoRow : View {
+    @EnvironmentObject var userData: UserData
+    
     var video: Video
     var body: some View {
         HStack {
@@ -21,9 +23,12 @@ struct VideoRow : View {
                 }
             }
             Spacer()
-            if video.isPlaying {
+            if userData.currentVideo.id == video.id {
                 Image(systemName: "music.mic")
             }
+        }
+        .tapAction {
+            self.userData.currentVideo = self.video
         }
     }
 }
@@ -32,6 +37,7 @@ struct VideoRow : View {
 struct VideoRow_Previews : PreviewProvider {
     static var previews: some View {
         VideoRow(video: videoList[0])
+            .environmentObject(UserData())
     }
 }
 #endif

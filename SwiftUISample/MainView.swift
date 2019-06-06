@@ -11,17 +11,17 @@ import AVFoundation
 
 struct MainView: View {
     
-    var videos = videoList
-    var currentVideo = videoList[0]
+    @EnvironmentObject var userData: UserData
     
     let player = AVPlayer()
+    var videos = videoList
     
     var body: some View {
         NavigationView {
             VStack {
                 ZStack(alignment: .bottom) {
                     
-                    PlayerView(player: self.player, video: self.currentVideo)
+                    PlayerView(player: self.player, video: userData.currentVideo)
                     
                     ControlView(controller: PlayerController(player: self.player))
                         .padding(.all)
@@ -30,7 +30,7 @@ struct MainView: View {
         
                 VideoListView(videos: videos)
             }
-            .navigationBarTitle(Text(currentVideo.title))
+            .navigationBarTitle(Text(userData.currentVideo.title))
         }
     }
 }
@@ -39,6 +39,7 @@ struct MainView: View {
 struct MainView_Previews : PreviewProvider {
     static var previews: some View {
         MainView()
+            .environmentObject(UserData())
     }
 }
 #endif
@@ -52,6 +53,7 @@ struct VideoListView : View {
                 VideoRow(video: video)
                     .padding(.top, 10)
                     .padding(.bottom, 10)
+                
             }
         }
     }
