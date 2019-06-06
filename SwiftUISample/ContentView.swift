@@ -13,10 +13,15 @@ struct ContentView : View {
     
     var video: Video = videoList[0]
     
+    let player = AVPlayer()
+    
     var body: some View {
         VStack {
-            PlayerView(video: video)
-                .frame(height: 300)
+            ZStack(alignment: .bottom) {
+                PlayerView(player: self.player, video: self.video)
+                ControlView(player: self.player)
+                    .padding(.all)
+            }.background(Color.black)
             
             List(videoList) { video in
                 Text(video.title)

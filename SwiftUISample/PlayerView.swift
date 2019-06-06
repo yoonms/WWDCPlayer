@@ -34,7 +34,7 @@ class PlayerUIView: UIView {
 
 struct PlayerView: UIViewRepresentable {
     
-    private let player = AVPlayer()
+    let player: AVPlayer
     var video: Video
     
     func makeUIView(context: UIViewRepresentableContext<PlayerView>) -> PlayerUIView {
@@ -47,6 +47,13 @@ struct PlayerView: UIViewRepresentable {
         guard let url = URL(string: video.url) else { return }
         let item = AVPlayerItem(url: url)
         view.player?.replaceCurrentItem(with: item)
-        view.player?.play()
     }
 }
+
+#if DEBUG
+struct PlayerView_Previews : PreviewProvider {
+    static var previews: some View {
+        PlayerView(player: AVPlayer(), video: videoList[0])
+    }
+}
+#endif
