@@ -27,7 +27,7 @@ enum Platform: String, CaseIterable {
 let allPlatforms = Platform.allCases
 
 let videoList = [
-    Video(id: 101, title: "Keynote", url: "https://p-events-delivery.akamaized.net/3004qzusahnbjppuwydgjzsdyzsippar/m3u8/hls_vod_mvp.m3u8", platforms: allPlatforms),
-    Video(id: 103, title: "Platforms State of the Union", url: "https://devstreaming-cdn.apple.com/videos/wwdc/2019/103bax22h2udxu0n/103/hls_vod_mvp.m3u8", platforms: allPlatforms),
-    Video(id: 104, title: "Apple Design Awards", url: "https://devstreaming-cdn.apple.com/videos/wwdc/2019/104d6zyhb21vki/104/hls_vod_mvp.m3u8", platforms: allPlatforms)
+    Video(id: 101, title: "Keynote🤖", url: "https://p-events-delivery.akamaized.net/3004qzusahnbjppuwydgjzsdyzsippar/m3u8/hls_vod_mvp.m3u8", platforms: allPlatforms),
+    Video(id: 103, title: "Platforms State of the Union🛠", url: "https://devstreaming-cdn.apple.com/videos/wwdc/2019/103bax22h2udxu0n/103/hls_vod_mvp.m3u8", platforms: allPlatforms),
+    Video(id: 104, title: "Apple Design Awards🏆", url: "https://devstreaming-cdn.apple.com/videos/wwdc/2019/104d6zyhb21vki/104/hls_vod_mvp.m3u8", platforms: allPlatforms)
 ]
