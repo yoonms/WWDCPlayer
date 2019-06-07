@@ -12,9 +12,7 @@ import AVFoundation
 struct MainView: View {
     
     @EnvironmentObject var userData: UserData
-    
-    let player = AVPlayer()
-    
+        
     var body: some View {
         NavigationView {
             VStack {
