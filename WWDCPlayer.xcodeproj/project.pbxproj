@@ -110,11 +110,11 @@
 		B8C3352222A83894003AD9B4 /* WWDCPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
 				8D7DEE8B22A8950D005D6A10 /* Delegates */,
 				B8C67D6522A8D09500C0B63F /* Model */,
 				B8E926B322A9CCAD009D3FF1 /* View */,
 				B8E926B022A8E24D009D3FF1 /* Enum */,
-				B8C3352E22A83897003AD9B4 /* LaunchScreen.storyboard */,
 				8DC3392922A89A7D00EDE8CF /* Supporting Files */,
 				B8C3352B22A83897003AD9B4 /* Preview Content */,
 			);
