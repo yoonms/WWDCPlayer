@@ -15,4 +15,4 @@ WWDCPlayer is under MIT license. See the [LICENSE](https://github.com/YOONMS/WWD
 
 ## Author
 
-WWDCPlayer was developed by naver webtoons ios developer, [Sohee.b](https://github.com/sohee-b) and [Minseob Yoon](https://github.com/yoonms) ✌️
+Developed by naver webtoons ios developer, [Sohee.b](https://github.com/sohee-b) and [Minseob Yoon](https://github.com/yoonms) ✌️
