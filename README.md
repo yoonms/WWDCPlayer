@@ -12,3 +12,7 @@ Watch WWDC19 sessions with WWDCPlayer🤖
 
 ## License
 WWDCPlayer is under MIT license. See the [LICENSE](https://github.com/YOONMS/WWDCPlayer/blob/master/LICENSE) file for more info.
+
+## Author
+
+WWDCPlayer was developed by naver webtoons ios developer, [Sohee.b](https://github.com/sohee-b) and [Minseob Yoon](https://github.com/yoonms) ✌️
